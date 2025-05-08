@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>E-Learn</h1>
+      <ul>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Learn Anytime, Anywhere</h2>
+    <p>Join thousands of learners and upskill yourself with our expert-led courses.</p>
+    <a href="#courses" class="btn">Browse Courses</a>
+  </section>
+
+  <section id="courses" class="section">
+    <h2>Popular Courses</h2>
+    <div class="course-list">
+      <div class="course-card">
+        <h3>Python for Beginners</h3>
+        <p>Start your coding journey with Python basics.</p>
+      </div>
+      <div class="course-card">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript & real-world projects.</p>
+      </div>
+      <div class="course-card">
+        <h3>Data Analysis with Pandas</h3>
+        <p>Analyze real data with Python and Pandas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="login" class="section">
+    <h2>Login</h2>
+    <form id="login-form">
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p id="login-status"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 E-Learn Platform</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
